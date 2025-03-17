@@ -32,7 +32,7 @@ A simple real-time chat application built using **Spring Boot**, **WebSockets**,
     ./mvnw spring-boot:run  # On macOS/Linux
     mvnw.cmd spring-boot:run  # On Windows
 
-### *3. Open the Frontend
+### 3. Open the Frontend
 Since the frontend also runs on localhost:8080, no additional setup is required. Just access it via your browser.
 
 
