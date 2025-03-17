@@ -22,13 +22,13 @@ A simple real-time chat application built using **Spring Boot**, **WebSockets**,
 ## Installation & Setup ⚙️  
 
 ### **1. Clone the Repository**
-    ```sh
+    
      git clone https://github.com/your-username/chat-app.git
      cd chat-app
 
 
 ### **2. Run the Backend (Spring Boot)
-    ```sh
+    
     ./mvnw spring-boot:run  # On macOS/Linux
     mvnw.cmd spring-boot:run  # On Windows
 
