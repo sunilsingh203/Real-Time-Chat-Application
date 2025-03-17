@@ -27,7 +27,7 @@ A simple real-time chat application built using **Spring Boot**, **WebSockets**,
      cd chat-app
 
 
-### **2. Run the Backend (Spring Boot)
+### 2. Run the Backend (Spring Boot)
     
     ./mvnw spring-boot:run  # On macOS/Linux
     mvnw.cmd spring-boot:run  # On Windows
