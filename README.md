@@ -22,6 +22,38 @@ A simple real-time chat application built using **Spring Boot**, **WebSockets**,
 ## Installation & Setup ⚙️  
 
 ### **1. Clone the Repository**
-```sh
-git clone https://github.com/your-username/chat-app.git
-cd chat-app
+    ```sh
+     git clone https://github.com/your-username/chat-app.git
+     cd chat-app
+
+
+### **2. Run the Backend (Spring Boot)
+    ```sh
+    ./mvnw spring-boot:run  # On macOS/Linux
+    mvnw.cmd spring-boot:run  # On Windows
+
+### *3. Open the Frontend
+Since the frontend also runs on localhost:8080, no additional setup is required. Just access it via your browser.
+
+
+## WebSocket API Endpoints 🔌  
+
+| Endpoint            | Description                      |
+|---------------------|----------------------------------|
+| `/chat`            | WebSocket endpoint              |
+| `/app/sendMessage` | Clients send messages          |
+| `/topic/messages`  | Clients subscribe for updates  |
+
+## Usage 📝  
+1. Open the browser and go to **[http://localhost:8080](http://localhost:8080)**.  
+2. Enter a name and type a message.  
+3. Click **"Send"** and see messages appear instantly.  
+
+
+##  Future Improvements 🚀
+- 🔐 User authentication (Spring Security, JWT)
+- 📝 Message history (Store messages in a database)
+- 🎨 Enhanced UI/UX with additional ThemeLyf customization
+
+## Contributing 🤝
+- Feel free to fork, modify, and submit pull requests!
